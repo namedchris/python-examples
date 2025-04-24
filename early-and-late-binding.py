@@ -9,7 +9,7 @@ def main():
     for fun in lambda_with_late_binding:
         fun()
     
-    print("\nlambda with early binding (default arg):")
+    print("\nlambdas with early binding (default arg):")
     lambda_with_early_binding = []
     for n in ns:
         lambda_with_early_binding.append(lambda n=n: print(f"{n=}"))
